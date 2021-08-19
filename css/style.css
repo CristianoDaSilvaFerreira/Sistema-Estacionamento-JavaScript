@@ -10,11 +10,30 @@ body {
   padding-bottom: 20px;
 }
 
-.clearfix h2 {
-  text-align: center;
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header img {
+  max-height: 120px;
+  max-width: 120px;
+  position: relative;
+  top: -40px;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
+.header{
+  text-align: center;
+  position: relative;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: block;
+  align-items: center
+}
+
 .header,
 .marketing,
 .footer {
@@ -52,6 +71,7 @@ body {
 form {
   animation-name: fade;
   animation-duration: 500ms;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 @keyframes fade {
@@ -61,6 +81,32 @@ form {
   } to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+form {
+  overflow: hidden;
+}
+
+form .input-block{
+  animation: move 400ms;
+  animation-delay: 150ms;
+  animation-fill-mode: backwards;
+}
+
+form .btn{
+  animation: move 400ms;
+  animation-delay: 250ms;
+  animation-fill-mode: backwards;
+}
+
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translateX(-35%);
+  } to {
+    opacity: 1;
+    transform: translateX(0%);
   }
 }
 
