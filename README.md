@@ -1,4 +1,6 @@
-# Sistema-Estacionamento-JavaScript
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/CristianoDaSilvaFerreira/Sistema-Estacionamento-JavaScript"> <img alt="GitHub" src="https://img.shields.io/github/license/CristianoDaSIlvaFerreira/Sistema-Estacionamento-JavaScript">
+
+<h1>Sistema-Estacionamento-JavaScript</h1>
 
 Projeto de um sistema de estacionamento feito em JavaScript
 
@@ -15,7 +17,7 @@ Para pode começar a usa-lo, poderá fazer de duas formas diferentes
 $ git clone https://github.com/CristianoDaSilvaFerreira/Sistema-Estacionamento-JavaScript.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd controle-de-despesas-javascript
+$ cd estacionamento-javascript
 
 # Execute a aplicação (caso use o VSCode - e tenha essa função)
 $ code .
