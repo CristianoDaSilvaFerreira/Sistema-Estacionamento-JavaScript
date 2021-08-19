@@ -58,9 +58,11 @@ img{
 }
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
+  padding: 9px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  text-align: center;
+  background-color: #eee;
 }
 
 body {
